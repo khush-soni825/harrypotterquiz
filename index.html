@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizarding World Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container fade-in">
+        <h1 class="title">⚡ Wizarding World Quiz ⚡</h1>
+        <p id="question" class="question"></p>
+
+        <div id="answers" class="answers"></div>
+
+        <p id="score" class="score">Score: 0</p>
+        <button id="nextBtn" onclick="nextQuestion()" class="next">Next Question</button>
+
+        <div id="result" class="result"></div>
+        <button id="replayBtn" onclick="replayGame()" class="replay" style="display:none;">Replay</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
